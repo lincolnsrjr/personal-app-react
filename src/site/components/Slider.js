@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import SliderItem from './SliderItem';
 
 export default class Slider extends Component {
+ 
   render() {
     return (
       <div id="slider" data-section={this.props.section}>

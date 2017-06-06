@@ -8,8 +8,8 @@ import Login from './login/components/Login';
 ReactDOM.render((
     <Router>
         <Switch>
-            <Route exact path="/" component={Site}/>            
-            <Route path="/login" component={Login}/>            
+            <Route exact path="/" component={Site} onEnter={(nextState, replace) => alert('teste')}/>            
+            <Route path="/login" component={Login} />            
         </Switch>
     </Router>
 

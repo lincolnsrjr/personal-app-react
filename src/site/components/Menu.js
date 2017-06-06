@@ -10,6 +10,7 @@ export default class Menu extends Component {
           <MenuItem section={'product'} text={'Aplicativo'} />
           <MenuItem section={'prices'} text={'Preços'} />
           <MenuItem section={'contact'} text={'Contato'} />
+          <MenuItem text={'Entrar'} to={'/login'}/>
         </ul>
       </div>
     );
