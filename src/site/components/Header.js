@@ -8,7 +8,7 @@ class Header extends Component {
       <header role="banner" id="fh5co-header">
         <div className="container">
           <nav className="navbar navbar-default">
-            <Logo name={'PeronsalAPP'}/>
+            <Logo name={'PersonalAPP'}/>
             <Menu/>
           </nav>
         </div>

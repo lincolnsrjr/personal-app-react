@@ -4,9 +4,7 @@ import PriceItem from './PriceItem';
 class Price extends Component {
   render() {    
     return (
-     <div>
-       <PriceItem/>
-     </div>
+    <div>"TESTE"</div>
     );
   }
 }

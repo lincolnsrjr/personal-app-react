@@ -23,6 +23,9 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-clipboard-2:before{}
+  content: "\e072"
+}
 .icon-glass:before {
 	content: "\f000";
 }
@@ -2276,6 +2279,7 @@
 .icon-speech-bubble:before {
 	content: "\e076";
 }
+
 .icon-anchor:before {
 	content: "\e077";
 }

@@ -10,8 +10,8 @@ class Site extends Component {
     return (
       <div>
         <Header/>
-        <Slider/>
-        <Product/>
+        <Slider section={'home'}/>
+        <Product section={'product'}/>
         <Price/>
         <Footer/>
       </div>     
