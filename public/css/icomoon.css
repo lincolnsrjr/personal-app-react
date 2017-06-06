@@ -23,7 +23,7 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-clipboard-2:before{}
+.icon-clipboard-2:before{
   content: "\e072"
 }
 .icon-glass:before {

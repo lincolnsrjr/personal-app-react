@@ -23,7 +23,7 @@ class Product extends Component {
           <ProductItem
           title={'Marketing digital'} 
           text={"Esteja presente no mundo dos aplicativos, aumentando ainda mais a sua presença no mercado de personal's trainer's."} 
-          icon={'mobile'}/>
+          icon={'tablet'}/>
 
           <ProductItem
           title={'Divulgação'} 
