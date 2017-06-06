@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Logo from './Logo';
 import Menu from './Menu';
 
-class Header extends Component {
+export default class Header extends Component {
   render() {
     return (
       <header role="banner" id="fh5co-header">
@@ -16,5 +16,3 @@ class Header extends Component {
     );
   }
 }
-
-export default Header;

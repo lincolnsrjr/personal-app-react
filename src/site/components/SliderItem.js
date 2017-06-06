@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class SliderItem extends Component {
+export default class SliderItem extends Component {
 
   render() {
     return (
@@ -46,5 +46,3 @@ class SliderItem extends Component {
     );
   }
 }
-
-export default SliderItem;

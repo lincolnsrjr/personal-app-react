@@ -6,7 +6,7 @@ import Price from './Price';
 import Footer from './Footer';
 import Contact from './Contact';
 
-class Site extends Component {
+export default class Site extends Component {
   render() {    
     return (
       <div>
@@ -20,5 +20,3 @@ class Site extends Component {
     );
   }
 }
-
-export default Site;

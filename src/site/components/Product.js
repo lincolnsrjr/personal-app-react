@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ProductItem from './ProductItem';
 
-class Product extends Component {
+export default class Product extends Component {
   render() {
     return (
       <div id="fh5co-features" data-section={this.props.section}>
@@ -63,5 +63,3 @@ class Product extends Component {
     );
   }
 }
-
-export default Product;

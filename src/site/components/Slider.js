@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import SliderItem from './SliderItem';
 
-class Slider extends Component {
+export default class Slider extends Component {
   render() {
     return (
       <div id="slider" data-section={this.props.section}>
@@ -51,5 +51,3 @@ class Slider extends Component {
     );
   }
 }
-
-export default Slider;

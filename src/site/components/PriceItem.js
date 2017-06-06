@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-class PriceItem extends Component {
+export default class PriceItem extends Component {
   render() {    
     return (
 				
@@ -18,5 +18,3 @@ class PriceItem extends Component {
     );
   }
 }
-
-export default PriceItem;

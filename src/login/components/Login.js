@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-export default class Contact extends Component {
+export default class Login extends Component {
   render() {
     return (
       <div id="fh5co-features" data-section={this.props.section}>

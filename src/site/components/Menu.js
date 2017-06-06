@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import MenuItem from './MenuItem';
 
-class Menu extends Component {
+export default class Menu extends Component {
   render() {
     return (
       <div id="navbar" className="navbar-collapse collapse">
@@ -15,5 +15,3 @@ class Menu extends Component {
     );
   }
 }
-
-export default Menu;

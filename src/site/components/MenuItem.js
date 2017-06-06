@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class MenuItem extends Component {
+export default class MenuItem extends Component {
   render() {
     return (
       <li className={this.props.active}>
@@ -11,5 +11,3 @@ class MenuItem extends Component {
     );
   }
 }
-
-export default MenuItem;

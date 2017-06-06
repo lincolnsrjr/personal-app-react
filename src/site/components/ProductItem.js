@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class ProductItem extends Component {
+export default class ProductItem extends Component {
   render() {
     return (
       <div className="col-md-4 col-sm-6 col-xs-6 col-xxs-12 fh5co-service to-animate">
@@ -15,5 +15,3 @@ class ProductItem extends Component {
     );
   }
 }
-
-export default ProductItem;

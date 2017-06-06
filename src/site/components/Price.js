@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PriceItem from './PriceItem';
 
-class Price extends Component {
+export default class Price extends Component {
   render() {
     return (
       <div id="fh5co-pricing" data-section={this.props.section}>
@@ -45,5 +45,3 @@ class Price extends Component {
     );
   }
 }
-
-export default Price;
